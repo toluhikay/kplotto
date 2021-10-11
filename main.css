@@ -1,0 +1,277 @@
+/* design to target general elements */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+}
+
+
+
+/* header design */
+.header{
+    background-color: purple;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    position: sticky;
+}
+.ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+@media screen and (max-width:600px){
+   .ul{
+       display: block;
+       display: none;
+   } 
+}
+.ul li{
+    padding: 8px 20px;
+}
+.ul a{
+    text-decoration: none;
+}
+.client-details{
+    display: flex;
+    justify-content: space-between;
+}
+.login, .register{
+    text-align: center;
+    align-items: center;
+    width: 150px;
+    padding-top: 8px;
+}
+@media screen and (max-width:600px){
+    .login, .register{
+        display: none;
+    }
+}
+.login{
+    background-color:black;
+    margin-right: 10px;
+}
+.register{
+    background-color: gray;
+}
+.hamburger-menu{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    right: 30px;
+    display: none;
+}
+@media screen and (max-width:600px){
+    .hamburger-menu{
+        display: inline-block;
+    }
+}
+.line{
+    background-color: white;
+    width: 35px;
+    height: 3px;
+    margin-top: 5px;
+}
+.next-header{
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 20px;
+    position: sticky;
+}
+@media screen and (max-width:600px){
+    .next-header{
+        flex-direction: column;
+    }   
+}
+
+
+/* main section design */
+.mainsection{
+    background-color: rgb(36, 36, 36);
+    overflow-y: scroll;
+}
+
+.main-nav{
+    background-color: rgb(36, 36, 36);
+    padding: 5px 30px;
+}
+.draws{
+    background-color: rgb(22, 22, 22);
+}
+.draws h4{
+    color: gray;
+}
+.draw-date .iconify{
+    color: gray;
+}
+.draw-date{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.draw-dates{
+    border-bottom:1px solid gray;
+}
+.choose-numbers{
+    border-bottom: 1px dotted white;
+}
+.flex-div{
+    display: flex;
+}
+@media screen and (max-width:600px){
+   .flex-div{
+       flex-direction: column;
+   } 
+}
+.draws{
+    width: 300px;
+    height: fit-content;
+    margin-right: 20px;
+}
+@media screen and (max-width:600px){
+    .draws{
+        width: 100%;
+    }
+}
+.choose-number-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.choose-div2{
+    display: flex;
+    justify-content: space-between;
+}
+.social-media-icons{
+    display: flex;
+}
+select{
+    width: 400px;
+    margin-top: 20px;
+    height: 30px;
+    background-color: yellow;
+    outline: none;
+}
+@media screen and (max-width:600px){
+    select{
+        width:40%;
+    }
+}
+.table{
+    margin-top: 10px;
+    width: 400px;
+    align-items: center;
+    height: 400px;
+    padding-bottom: 200px;
+}
+@media screen and (max-width:600px){
+    .table{
+        width: 100%;
+    }
+}
+.row td div{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background-color: gray;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 3px solid white;
+}
+.row div p{
+    padding-top:5px;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+.row td div:hover{
+    width: 35px;
+    height: 35px;
+    background-color: rebeccapurple;
+}
+.row div p:hover{
+    color: white;
+}
+
+/* footer section */
+footer{
+    background-color: gray;
+}
+footer a{
+    color: black;
+}
+.section1-ul{
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(22, 22, 22);
+}
+@media screen and (max-width:600px){
+    .section1-ul{
+        flex-wrap: wrap;
+    }
+    .section1-ul{
+        align-items: center;
+    }
+}
+.section1-ul a{
+    text-decoration: underline;
+}
+.section2-div{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+@media screen and (max-width:600px){
+    .section2-div{
+        flex-direction: column;
+    }
+    .email, .call, .faq, .online{
+        margin-top: 20px;
+    }
+}
+.email{
+    display: flex;
+}
+.email .iconify{
+    width: 30px;
+    height: 20px;
+    margin-right: 20px;
+    color: rgb(22, 22, 22);
+}
+.call{
+    display: flex;
+}
+.call .iconify{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    color: rgb(22, 22, 22);
+}
+.faq{
+    display: flex;
+}
+.faq .iconify{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    color: rgb(22, 22, 22);
+}
+.online{
+    display: flex;
+}
+.online .iconify{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    color: rgb(22, 22, 22);
+}

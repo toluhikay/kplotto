@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kp Lotto</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="app.js"></script>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+<body>
+
+    <!-- header section -->
+    <header class="header">
+        <div class="logo">
+            <img src="lotto.jpeg" width="100px" height="30px" alt="" class="logo-img">
+        </div>
+        <nav class="ul-links">
+            <ul class="ul">
+                <li><a href="">Lotto</a></li>
+                <li><a href="">Pool</a></li>
+            </ul>
+        </nav>
+        <div class="client-details">
+            <div class="login"><a href="">LOGIN</a></div>
+            <div class="register"><a href="">REGISTER</a></div>
+        </div>
+
+        <div class="hamburger-menu">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        </div>
+    </header>
+
+    <!-- nothing major just another navigation div -->
+    <div class="next-header">
+        <div class="search-events">
+            <a href="" class="search-link">Search for Desired Events</a>
+        </div>
+        <div class="withdraw">
+            <a href="">Learn How To Play</a>
+        </div>
+        <div class="deposit">
+            <a href="">Learn How to Deposit</a>
+        </div>
+        <div class="lotto-play">
+            <a href="">Learn How to Withdraw</a>
+        </div>
+        <div class="contact">
+            <a href="">Contact Us</a>
+        </div>
+        <div class="result">
+            <a href="">Results</a>
+        </div>
+        <div class="more">
+            <a href="">More</a>
+        </div>
+    </div>
+
+    <!-- main div -->
+    <main class="mainsection">
+        <nav class="main-nav">
+            <div class="main-nav-div">
+                <a href="">Home</a>
+                <a href="">Lotto</a>
+            </div>
+        </nav>
+        <div class="choose-draw">
+            <h2 class="choose-draw-h2" style="color: white;">Choose a Draw</h2>
+        </div>
+
+        <div class="flex-div">
+            <!-- pool draw dates -->
+            <div class="draws">
+                <div class="draw-dates">
+                    <div class="draw-date">
+                        <h4 style="display: inline-block;" class="date-1">Thur 30th Sep 2021</h4><span class="iconify" data-icon="ic:baseline-navigate-next"></span>
+                    </div>
+                </div>
+                <div class="draw-dates">
+                <div class="draw-date">
+                        <h4 style="display: inline-block;" class="date-1">Fri 1st Oct 2021</h4><span class="iconify" data-icon="ic:baseline-navigate-next"></span>
+                </div>
+                </div>
+                <div class="draw-dates">
+                    <div class="draw-date">
+                        <h4 style="display: inline-block;" class="date-1">Sat 2nd Oct 2021</h4><span class="iconify" data-icon="ic:baseline-navigate-next"></span>
+                    </div>
+                </div>
+                <div class="draw-dates">
+                <div class="draw-date">
+                        <h4 style="display: inline-block;" class="date-1">Sun 3rd Oct 2021</h4><span class="iconify" data-icon="ic:baseline-navigate-next"></span>
+                </div>
+                </div>
+            </div>
+
+            <!-- select numbers -->
+            <div class="choose-number">
+                <nav class="choose-number-nav">
+                    <h2 class="choose-h2">Choose Number</h2>
+                    <div class="choose-div2">
+                        <div class="how-to-play">
+                            <a href="">How to Play KP Lotto <span class="iconify" data-icon="akar-icons:chat-question"></span></a>
+                        </div>
+                        <div class="latest-results">
+                            <a href="">Latest Results</a>
+                        </div>
+                        <div class="social-media-icons">
+                            <p style="color: white;">Follow Us</p>
+                            <a href=""><span class="iconify" data-icon="entypo-social:facebook-with-circle"></span></a>
+                            <a href=""><span class="iconify" data-icon="logos:twitter"></span></a>
+                            <a href=""><span class="iconify" data-icon="bx:bxl-instagram"></span></a>
+                        </div>
+                    </div>
+                </nav>
+                <div class="choose-numbers">
+                    <div class="head-numbers">
+                        <h2 class="draw-name">Premier VAG 15:30</h2>
+                        <p>Closes in 00:57:60</p>
+                    </div>
+                    <div class="price">
+                        <p><span class="iconify" data-icon="bx:bxl-instagram"></span></p>
+                    </div>
+                </div>
+
+                <div class="nap-numbers">
+                    <select name="drawtype" id="drawtypes">
+                        <option value="">
+                            <p>Nap2</p>
+                        </option>
+                        <option value="">
+                            <p>Nap3</p>
+                        </option>
+                        <option value="">
+                            <p>Nap4</p>
+                        </option>
+                        <option value="">
+                            <p>Nap5</p>
+                        </option>
+                        <option value="">
+                            <p>Perm2</p>
+                        </option>
+                        <option value="">
+                            <p>Perm3</p>
+                        </option>
+                        <option value="">
+                            <p>Perm4</p>
+                        </option>
+                        <option value="">
+                            <p>Perm5</p>
+                        </option>
+                        <option value="">
+                            <p>1 Banker</p>
+                        </option>
+                        <option value="">
+                            <p>Against</p>
+                        </option>
+                    </select>
+                    <table class="table">
+                        <tbody class="tbody">
+                            <tr></tr>
+                            <tr class="row row1">
+                                <td>
+                                    <div>
+                                        <p>1</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>2</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>3</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>4</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>5</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>6</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>7</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>8</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>9</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="row row2">
+                                <td>
+                                    <div>
+                                        <p>10</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>11</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>12</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>13</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>14</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>15</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>16</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>17</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>18</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="row row3">
+                                <td>
+                                    <div>
+                                        <p>19</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>20</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>21</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>22</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>23</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>24</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>25</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>26</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>27</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="row row4">
+                                <td>
+                                    <div>
+                                        <p>28</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>29</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>30</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>31</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>32</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>33</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>34</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>35</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>36</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="row row5">
+                                <td>
+                                    <div>
+                                        <p>37</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>38</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>39</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>40</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>41</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>42</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>43</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>44</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>45</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="row row6">
+                                <td>
+                                    <div>
+                                        <p>46</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>47</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>48</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>49</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>50</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>51</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>52</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>53</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>54</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="row row7">
+                                <td>
+                                    <div>
+                                        <p>55</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>56</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>57</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>58</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>59</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>60</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>61</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>62</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>63</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="row row7">
+                                <td>
+                                    <div>
+                                        <p>64</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>65</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>66</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>67</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>68</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>69</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>70</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>71</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>72</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="row row8">
+                                <td>
+                                    <div>
+                                        <p>73</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>74</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>75</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>76</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>77</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>78</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>79</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>80</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>81</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="row row9">
+                                <td>
+                                    <div>
+                                        <p>82</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>83</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>84</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>85</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>86</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>87</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>88</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>89</p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p>90</p>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+            </div>
+        </div>
+        <footer class="mainfooter">
+            <section class="section1-footer">
+                <ul class="section1-ul">
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Deposit</a></li>
+                    <li><a href="">Withdrawal</a></li>
+                    <li><a href="">Lottery Rules</a></li>
+                    <li><a href="">Pool Rules</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Cookies Policy</a></li>
+                </ul>
+            </section>
+            <section class="section2-footer">
+                <div class="section2-div">
+                    <div class="email">
+                        <span class="iconify" data-icon="carbon:email"></span>
+                        <div>
+                            <p>Email</p>
+                            <a href="">kplotto@yahoo.ng</a>
+                        </div>
+                    </div>
+                    <div class="call">
+                        <span class="iconify" data-icon="codicon:call-incoming"></span>
+                        <div>
+                            <p><a href="">09000004990</a></p>
+                            <p><a href="">90003003003</a></p>
+                            <p><a href="">09044444444</a></p>
+                        </div>
+                    </div>
+                    <div class="faq">
+                        <span class="iconify" data-icon="flat-color-icons:faq"></span>
+                        <div>
+                            <a href="">Frequently asked questions</a>
+                        </div>
+                    </div>
+                    <div class="online">
+                        <div>
+                            <span class="iconify" data-icon="ic:outline-online-prediction"></span>
+                            <p>Online</p>
+                        </div>
+                        <div>
+                            <p>Work Hours</p>
+                            <p>Mon - Friday 8:00am - 7:00pm</p>
+                            <p>Sat 10:00am - 2:00pm</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </main>
+
+</body>
+</html>
